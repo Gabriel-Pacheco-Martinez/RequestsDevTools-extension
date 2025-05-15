@@ -3,7 +3,6 @@
   "version": "1.0",
   "manifest_version": 3,
   "description": "Extension to extract requests",
-  "devtools_page": "devtools.html",
   "permissions": [
     "activeTab",
     "declarativeNetRequest",
@@ -23,5 +22,6 @@
       "enabled": true,
       "path": "rules.json"
     }]
-  }
+  },
+  "devtools_page": "devtools.html"
 }
