@@ -10,7 +10,7 @@ chrome.devtools.network.onRequestFinished.addListener(
     }
 
     // Log the JSON object
-    console.log(JSON.stringify(data, null, 2));
+    //console.log(JSON.stringify(data, null, 2));
 
     // Create a list item and append JSON
     const pre = document.createElement('pre');
